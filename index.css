@@ -1,0 +1,58 @@
+#header{
+    background: #451F96 !important;
+
+}
+
+#header img{
+    width: 100px;
+    height: 58px;
+}
+
+#main .carousel-inner img{
+    max-height: 70vh;
+    object-fit: cover;
+    /*filter: grayscale(70%);*/
+    opacity: 0.7;
+}
+
+.overlay a{
+    color: white;
+}
+
+#carrusel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+#carrusel .overlay .container,
+#carrusel .overlay .row{
+    height: 100%;
+}
+
+#ponentes p{
+    color: black;
+    
+}
+
+#place-time img{
+    max-width: 100%;
+}
+
+#place-time{
+    background-color: #7267AF;
+    color: white;
+}
+
+#footer{
+    background: #5D3CA6;
+}
+
+#footer a, p{
+    color: white;
+}
+
